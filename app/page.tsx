@@ -231,7 +231,10 @@ export default function Home() {
 
     <div className="cv-item">
       <span>EDUCATION</span>
-      <p>Business Administration — MIS</p>
+      <p>Bachelor of Business Administration — MIS
+Arab Open University · 2026 — Present
+Bachelor of Computer Science — CS
+Al-Azhar University — Gaza</p>
     </div>
 
     <div className="cv-item">

@@ -2,13 +2,11 @@ export default function TargetCoinsPage() {
   return (
     <main className="project-page">
 
-      {/* NAV */}
       <nav className="project-nav">
         <a href="/">AZMI.</a>
         <a href="/#work">← BACK TO WORK</a>
       </nav>
 
-      {/* HERO */}
       <section className="project-hero">
         <p>03 — BRAND / DIGITAL BUSINESS</p>
 
@@ -20,7 +18,6 @@ export default function TargetCoinsPage() {
         </p>
       </section>
 
-      {/* META */}
       <section className="project-meta">
 
         <div>
@@ -30,9 +27,7 @@ export default function TargetCoinsPage() {
 
         <div>
           <span>SERVICES</span>
-          <p>
-            Branding · Digital Business · Marketing
-          </p>
+          <p>Branding · Digital Business · Marketing</p>
         </div>
 
         <div>
@@ -43,6 +38,7 @@ export default function TargetCoinsPage() {
       </section>
 
       {/* COVER */}
+
       <section className="project-cover">
         <a
           href="/projects/target-coins/cover.png"
@@ -54,6 +50,89 @@ export default function TargetCoinsPage() {
             alt="Target Coins Cover"
           />
         </a>
+      </section>
+
+      {/* PROJECT IMAGES */}
+
+      <section className="project-images">
+
+        <a
+          href="/projects/target-coins/01.png"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/projects/target-coins/01.png"
+            alt="Target Coins Slide 01"
+          />
+        </a>
+
+        <a
+          href="/projects/target-coins/02.png"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/projects/target-coins/02.png"
+            alt="Target Coins Slide 02"
+          />
+        </a>
+
+        <a
+          href="/projects/target-coins/03.png"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/projects/target-coins/03.png"
+            alt="Target Coins Slide 03"
+          />
+        </a>
+
+        <a
+          href="/projects/target-coins/04.png"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/projects/target-coins/04.png"
+            alt="Target Coins Slide 04"
+          />
+        </a>
+
+        <a
+          href="/projects/target-coins/05.png"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/projects/target-coins/05.png"
+            alt="Target Coins Slide 05"
+          />
+        </a>
+
+        <a
+          href="/projects/target-coins/06.png"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/projects/target-coins/06.png"
+            alt="Target Coins Slide 06"
+          />
+        </a>
+
+        <a
+          href="/projects/target-coins/07.png"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/projects/target-coins/07.png"
+            alt="Target Coins Slide 07"
+          />
+        </a>
+
       </section>
 
     </main>
