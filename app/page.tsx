@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main>
@@ -63,9 +65,11 @@ export default function Home() {
     className="project-card"
   >
     <div className="project-image">
-      <img
+      <Image
         src="/projects/auren/cover.png"
         alt="AUREN brand identity and social media design"
+        fill
+        sizes="(max-width: 768px) 100vw, 50vw"
       />
 
       <span>01</span>
@@ -92,9 +96,11 @@ export default function Home() {
               className="project-card"
             >
               <div className="project-image">
-                <img
+                <Image
                   src="/projects/vyre/cover.png"
                   alt="VYRE brand identity and visual design"
+                  fill
+        sizes="(max-width: 768px) 100vw, 50vw"
                 />
 
                 <span>02</span>
@@ -122,9 +128,11 @@ export default function Home() {
               className="project-card"
             >
               <div className="project-image">
-                <img
+                <Image
                   src="/projects/target-coins/cover.png"
                   alt="TARGET COINS digital store branding and marketing design"
+                  fill
+        sizes="(max-width: 768px) 100vw, 50vw"
                 />
 
                 <span>03</span>
@@ -152,9 +160,11 @@ export default function Home() {
               className="project-card"
             >
               <div className="project-image">
-                <img
+                <Image
                   src="/projects/ayora-flowers/cover.png"
                   alt="AYORA FLOWERS e-commerce website and user experience design"
+                  fill
+        sizes="(max-width: 768px) 100vw, 50vw"
                 />
 
                 <span>04</span>
