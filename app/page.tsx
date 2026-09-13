@@ -65,7 +65,7 @@ export default function Home() {
     <div className="project-image">
       <img
         src="/projects/auren/cover.png"
-        alt="AUREN Project"
+        alt="AUREN brand identity and social media design"
       />
 
       <span>01</span>
@@ -94,7 +94,7 @@ export default function Home() {
               <div className="project-image">
                 <img
                   src="/projects/vyre/cover.png"
-                  alt="VYRE Project"
+                  alt="VYRE brand identity and visual design"
                 />
 
                 <span>02</span>
@@ -124,7 +124,7 @@ export default function Home() {
               <div className="project-image">
                 <img
                   src="/projects/target-coins/cover.png"
-                  alt="Target Coins Project"
+                  alt="TARGET COINS digital store branding and marketing design"
                 />
 
                 <span>03</span>
@@ -154,7 +154,7 @@ export default function Home() {
               <div className="project-image">
                 <img
                   src="/projects/ayora-flowers/cover.png"
-                  alt="Ayora Flowers Project"
+                  alt="AYORA FLOWERS e-commerce website and user experience design"
                 />
 
                 <span>04</span>
