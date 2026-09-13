@@ -23,6 +23,10 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Azmi Elwahedi — Creative Designer & Digital Creator focused on branding, social media, UI/UX, visual design and digital experiences.",
 
+verification: {
+  google: "QnamQA_Ps3kFN9u6268GWquDGZJGK12k7deB12-YYdo",
+},
+
   keywords: [
     "Azmi Elwahedi",
     "Creative Designer",
