@@ -79,6 +79,15 @@ verification: {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Azmi Elwahedi",
+  url: "https://azmi-portfolio-three.vercel.app",
+  jobTitle: "Creative Designer & Digital Creator",
+  email: "azmielw@gmail.com",
+};
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
@@ -86,6 +95,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
      <body className="min-h-full flex flex-col">
+      <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+/>
   {children}
   <GoogleAnalytics gaId="G-VB72CCT5N9" />
 </body>
